@@ -17,7 +17,7 @@ app.use(cors({
 }))
 
 app.use('/api/blogUser',UserRouter)
-app.use('/blogPosts',BlogPostsRouters)
+app.use('/posts',BlogPostsRouters)
 
 app.listen(process.env.PORT || 3000,async()=>{
     try {
